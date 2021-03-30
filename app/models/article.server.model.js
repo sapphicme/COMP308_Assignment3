@@ -11,18 +11,9 @@ const ArticleSchema = new Schema({
         trim: true,
         required: 'Course Code cannot be blank'
     },
-    coursename: {
-        type: String, default: '',
-        trim: true
-    },
-    section: {
-        type: Number, default: '',
-        trim: true
-    },
-    semester: {
-        type: Number, default: '',
-        trim: true
-    },
+    coursename: String,
+    section: Number,
+    semester:Number,
     creator: {
         type: Schema.ObjectId,
         ref: 'User'

@@ -6,7 +6,7 @@
 exports.render = function (req, res) {    
         //display index.ejs
         res.render('index', {
-            coursecode: 'Express REST API'
+            title: 'Express REST API'
         });   
     
 };
