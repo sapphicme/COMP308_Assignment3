@@ -18,7 +18,7 @@ exports.create = function (req, res) {
     const article = new Article();
     article.coursecode = req.body.coursecode;
     article.content = req.body.content;
-    article.creator = req.body.studentnumber;
+    //article.creator = req.body.studentnumber;
     console.log(req.body)
     //
     //
